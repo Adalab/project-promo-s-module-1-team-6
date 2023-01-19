@@ -1,5 +1,6 @@
 :root {
     font-size: 62.5%;
+    --web-color: #099d8d
 } /*si o no poner*/
 * {
     box-sizing: border-box;
@@ -31,4 +32,24 @@
     display: inline-block;
     border: 2px solid pink;
     
+}
+.container-intro {
+    width: 320px;
+    height: 2220px;
+    margin: 1000px 0 0;
+    padding: 30px 15px 45px;
+}
+.presentation {
+    width: 185px;
+    height: 45px;
+    margin: 0 45px 30px 45px;
+    font-family: Rubik;
+    font: size 24px;
+    font-weight:300;
+    font-style: normal;
+    color: var(--web-color)
+}
+.box-self {
+    width: 300;
+    height:200px;
 }

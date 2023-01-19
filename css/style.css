@@ -1,5 +1,34 @@
+:root {
+    font-size: 62.5%;
+} /*si o no poner*/
 * {
     box-sizing: border-box;
     margin: 0;
-    padding:0
+    padding: 0;
+    
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  /* align-item: center; */
+    color: #ffffff;
+}
+.header-title {
+    background-color: #099d8d;
+    padding: 15px;
+    width: 100%;
+
+}
+.container-link {
+    background-color: #14d9c4;
+    padding: 8px 17px 7px 16px;
+    
+    
+    
+}
+.link {
+    display: inline-block;
+    border: 2px solid pink;
+    
 }

@@ -1,34 +1,59 @@
 :root {
     font-size: 62.5%;
-} /*si o no poner*/
+}
+
+/*si o no poner*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
+
 .header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  /* align-item: center; */
+    /* align-item: center; */
     color: #ffffff;
 }
+
 .header-title {
     background-color: #099d8d;
     padding: 15px;
     width: 100%;
 
 }
+
 .container-link {
     background-color: #14d9c4;
     padding: 8px 17px 7px 16px;
-    
-    
-    
+
+
+
 }
+
 .link {
     display: inline-block;
     border: 2px solid pink;
-    
+
+}
+
+.imagen-hero {
+    width: 100%;
+    height: 100%;
+}
+
+.texto-hero {
+
+    display: flex;
+    background-color: white;
+    padding: 3px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    left: 30px;
+    top: 360px;
+    right: 30px;
+    margin: 5px;
+    color: black;
 }

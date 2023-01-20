@@ -6,32 +6,91 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
+
 .header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  /* align-item: center; */
+    /* align-item: center; */
     color: #ffffff;
 }
+
 .header-title {
     background-color: #099d8d;
     padding: 15px;
     width: 100%;
 
 }
+
 .container-link {
     background-color: #14d9c4;
     padding: 8px 17px 7px 16px;
-    
-    
-    
+
+
+
 }
+
 .link {
     display: inline-block;
     border: 2px solid pink;
+
+}
+
+.imagen-hero {
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    border-top: 1px solid #b8b8b9;
+    /*PONER MEDIAQUERIE PARA EL GRIS CLARO*/
+    padding: 30px;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+small{
+    color: #b8b8b9;
+    margin-bottom: 20px;
     
+}
+
+.footer-bar{
+    color: #54585a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-list{
+    list-style: none;
+    
+
+}
+
+.footer-logo{
+    width: 115px;
+    height: 45px;
+    margin-top: 30px;
+}
+.texto-hero {
+
+    display: flex;
+    background-color: white;
+    padding: 3px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    left: 30px;
+    top: 360px;
+    right: 30px;
+    margin: 5px;
+    color: black;
 }
 .container-intro {
     width: 320px;

@@ -108,3 +108,6 @@ small{
     width: 300;
     height:200px;
 }
+.icons {
+list-style-type: none;    
+}

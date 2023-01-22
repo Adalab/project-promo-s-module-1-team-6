@@ -90,24 +90,52 @@ small{
 }
 .container-intro {
     width: 320px;
-    height: 2220px;
-    margin: 1000px 0 0;
-    padding: 30px 15px 45px;
+    height: 1820px;
+    margin: 10px 0;
+    padding: 20px 15px;
 }
 .presentation {
-    width: 185px;
-    height: 45px;
-    margin: 0 45px 30px 45px;
+    width: 270px;
+    height: 37px;
+    margin: 10px 15px;
     font-family: Rubik;
-    font: size 24px;
-    font-weight:300;
+    font-size:  15px;
+    font-weight:600;
     font-style: normal;
-    color: var(--web-color)
+    color: var(--web-color);
+    text-align: center;
 }
 .box-self {
-    width: 300;
-    height:200px;
+width: 320;
+height: 410px;
+margin: 10px ;
 }
-.icons {
-list-style-type: none;    
+.pic {
+width: 50px;
+height: 80px;
+margin: 3px 3px;
+border: solid 5px color#54585a;
+border-radius: 4px;
+}
+.name {
+padding:10px 10px;
+text-align: center;
+font-size: 15px;
+}
+.text-self {
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.listed-icons {
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+.fa {
+color:#099d8d;
+padding: 0 1px;
 }

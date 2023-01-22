@@ -74,6 +74,7 @@ small {
     margin-top: 30px;
 }
 
+
 .container-hero {
     position: relative;
 }
@@ -86,7 +87,7 @@ small {
 .texto-hero {
     background-color: white;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -94,20 +95,17 @@ small {
     letter-spacing: normal;
     color: black;
     position: absolute;
-    bottom: -40px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
-
-
     width: 290px;
     height: 80px;
-    padding: 14px 15px 16px;
+    padding: 2px;
     text-align: center;
 }
 
+
 .box-equipo {
-    width: 320px;
-    height: 504px;
     padding: 30px 15px;
     background-color: white;
     display: flex;
@@ -137,7 +135,7 @@ small {
     width: 290px;
     height: 384px;
     margin: 15px 0 0;
-    font-family: 'Open Sans';
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;

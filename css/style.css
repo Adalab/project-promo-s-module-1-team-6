@@ -55,7 +55,7 @@
     text-decoration: none;
 }
 
-container-hero {
+.container-hero {
     position: relative;
 }
 
@@ -80,7 +80,7 @@ container-hero {
     transform: translateX(-50%);
     width: 290px;
     height: 80px;
-    padding: 2px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -126,17 +126,9 @@ container-hero {
     color: #54585a;
 }
 
-
 .container-intro {
     width: 320px;
-    height: 2220px;
-    margin: 1000px 0 0;
-    padding: 30px 15px 45px;
-}
-
-.container-intro {
-    width: 320px;
-    height: 1820px;
+    height: 2520px;
     margin: 10px 0;
     padding: 20px 15px;
 }
@@ -174,9 +166,17 @@ container-hero {
 }
 
 .text-self {
+    width: 290px;
+    margin: 15px 0 0;
     padding: 10px 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
     text-align: center;
-    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
 }
 
 .listed-icons {

@@ -218,4 +218,38 @@ small {
   flex-direction: row;
   justify-content: flex-start; }
 
+.box-fort-debil {
+  background-color: #b8b8b9; }
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 250px;
+  line-height: 1.5;
+  background-color: #b8b8b9; }
+
+.titulo-1 {
+  font-family: "Rubik";
+  color: #099d8d;
+  width: 290px;
+  height: 45px;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 20px; }
+
+.subtitulo1 {
+  color: #54585a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  width: 290px;
+  line-height: 1.5; }
+
 /*# sourceMappingURL=main.css.map */

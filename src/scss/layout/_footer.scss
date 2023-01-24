@@ -14,6 +14,8 @@ footer {
 small {
     color: #b8b8b9;
     text-align: center;
+    font-size: 16px;
+    padding:5px;
 }
 
 .footer-bar {
@@ -27,6 +29,7 @@ small {
 
 .footer-list {
     list-style: none;
+    font-size: 16px;
 }
 
 .footer-logo {
@@ -36,4 +39,5 @@ small {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding-bottom: 10px;
 }

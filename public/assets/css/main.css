@@ -206,7 +206,9 @@ footer {
 
 small {
   color: #b8b8b9;
-  text-align: center; }
+  text-align: center;
+  font-size: 16px;
+  padding: 5px; }
 
 .footer-bar {
   color: #54585a;
@@ -217,7 +219,8 @@ small {
   justify-content: flex-end; }
 
 .footer-list {
-  list-style: none; }
+  list-style: none;
+  font-size: 16px; }
 
 .footer-logo {
   width: 115px;
@@ -225,7 +228,8 @@ small {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  padding-bottom: 10px; }
 
 :root {
   font-size: 62.5%;

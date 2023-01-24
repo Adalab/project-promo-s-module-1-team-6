@@ -1,8 +1,39 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+footer {
+    width: 100%;
+    border-top: 1px solid #b8b8b9;
+    /*PONER MEDIAQUERY PARA EL GRIS CLARO*/
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+small {
+    color: #b8b8b9;
+    text-align: center;
+}
+
+.footer-bar {
+    color: #54585a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-logo {
+    width: 115px;
+    height: 45px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }

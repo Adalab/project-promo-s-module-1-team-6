@@ -42,11 +42,13 @@
   color: #ffffff;
   text-decoration: none; }
 
-@media all and (min-width: 768px) {
+/*@media all and (min-width: 768px) {
   .header {
     display: flex;
-    width: 100%; } }
-
+    width: 100%;
+  
+  }
+}*/
 /*position: fixed;
  z-index: 2;
  width: 100%;

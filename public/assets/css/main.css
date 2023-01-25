@@ -42,7 +42,10 @@
 
 .imagen-hero {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .texto-hero {
   background-color: white;
@@ -74,7 +77,7 @@
 .box-equipo-titulo {
   color: #14d9c4;
   display: flex;
-  width: 89px;
+  /* width: 89px; */
   height: 45px;
   margin: 0 99.5px 15px 101.5px;
   font-family: 'Rubik';
@@ -87,7 +90,7 @@
   text-align: center; }
 
 .box-equipo-texto {
-  width: 290px;
+  /*  width: 290px; */
   height: 384px;
   margin: 15px 0 0;
   font-family: "Open Sans", sans-serif;
@@ -115,7 +118,7 @@
 .titulo-1 {
   font-family: "Rubik";
   color: #099d8d;
-  width: 290px;
+  /* width: 290px; */
   height: 45px;
   font-size: 22px;
   font-weight: 500;
@@ -131,7 +134,7 @@
   color: #54585a;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  width: 290px;
+  /* width: 290px; */
   line-height: 1.5; }
 
 .container-intro {

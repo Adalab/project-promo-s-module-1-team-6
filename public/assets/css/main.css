@@ -49,8 +49,8 @@
     width: 100%;
   
   }
-}*/
-/*position: fixed;
+}
+ /*position: fixed;
  z-index: 2;
  width: 100%;
  font-family: 'Rubik',
@@ -221,17 +221,15 @@
 
 @media all and (min-width: 480px) {
   .box-self {
-    margin: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center; } }
+    flex-direction: column;
+    flex-flow: column wrap;
+    justify-content: left;
+    align-items: left; } }
 
 footer {
   width: 100%;
   border-top: 1px solid #b8b8b9;
-  /*PONER MEDIAQUERY PARA EL GRIS CLARO*/
   padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
@@ -244,7 +242,8 @@ small {
   color: #b8b8b9;
   text-align: center;
   font-size: 16px;
-  padding: 5px; }
+  margin-top: 30px;
+  margin-bottom: 20px; }
 
 .footer-bar {
   color: #54585a;
@@ -259,13 +258,41 @@ small {
   font-size: 16px; }
 
 .footer-logo {
-  width: 115px;
+  width: 115.9px;
   height: 45px;
   margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding-bottom: 10px; }
+  margin-bottom: 45px; }
+
+@media all and (min-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+  small {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 15px; }
+  .footer-logo {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 60px; }
+  .footer-bar {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+  .footer-list {
+    text-align: right; }
+  li {
+    padding-top: 5px;
+    padding-bottom: 5px; } }
 
 :root {
   font-size: 62.5%;

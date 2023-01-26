@@ -265,21 +265,18 @@ small {
     text-align: left;
     font-size: 16px;
     margin-top: 30px;
-    margin-bottom: 15px;
-    order: 0; }
+    margin-bottom: 15px; }
   .footer-logo {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-bottom: 60px;
-    order: 1; }
+    margin-bottom: 60px; }
   .footer-bar {
     margin-top: 25px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    order: 2; }
+    justify-content: flex-end; }
   .footer-list {
     text-align: right; }
   li {

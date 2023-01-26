@@ -57,7 +57,6 @@ small {
         font-size: 16px;
         margin-top:30px;
         margin-bottom: 15px;
-        order:0;
     }
 
     .footer-logo {
@@ -66,7 +65,6 @@ small {
         flex-direction: row;
         justify-content: flex-start;
         margin-bottom: 60px;
-        order:1;
     }
 
     .footer-bar {
@@ -74,7 +72,6 @@ small {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        order:2;
     }
 
     .footer-list{

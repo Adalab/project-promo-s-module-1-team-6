@@ -1,36 +1,55 @@
+/* duda de adonde poner el: scroll-margin-top: ; para que al pinchar el link el fixed header no tape esa parte */
+
+.header {
+  position: fixed;
+  z-index: 2;
+  /*width: 100%;*/
+  font-family: 'Rubik', sans-serif;
+  
+}
 .header-title {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around;*/
     text-align: center;
     /*si le ponemos classe al body, eliminar este text-align*/
     color: #ffffff;
     background-color: #099d8d;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    width: 100%;
+    width: 100vw;
     height: 6rem;
     opacity: 0.95;
-    font-family: 'Rubik', sans-serif;
+    
 }
 
-.container-link {
+.menu-link {
   background-color: #14d9c4;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
-  width: 100%;
+  width: 100vw;
   height: 4.5rem;
   padding: 0.8rem 1.7rem 0.7rem 1.6rem;
   opacity: 0.9;
   font-size: 1.5rem;
-  font-family: 'Rubik', sans-serif;
 
 }
-
 .link {
   color: #ffffff;
   text-decoration: none;
 }
+/*@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    width: 100%;
+  
+  }
+}*/
+ /*position: fixed;
+ z-index: 2;
+ width: 100%;
+ font-family: 'Rubik',
+ sans-serif;*/

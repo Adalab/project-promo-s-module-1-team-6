@@ -73,12 +73,9 @@
      color: #099d8d;
      padding: 0 1px;
  }
-@media all and (min-width: 480px) {
-    .box-self {
+@media all and (min-width: 768px) {
+    .section-2 {
         display: flex;
-        flex-direction: column;
-        flex-flow: column wrap;
-        justify-content:left;
-        align-items: left;
-    }
+        flex-direction: row;
+        }
 }

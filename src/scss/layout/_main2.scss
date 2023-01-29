@@ -19,7 +19,8 @@
 
  }
 
- .box-self {
+ .box-self,
+ .box-self-reverse {
      margin: 10px;
      display: flex;
      flex-direction: column;
@@ -38,10 +39,10 @@
 
  .name {
     font-family: "Open Sans", sans-serif;
-    height: 45px;
+        height: 45px;
      padding: 10px 10px;
      font-size: 20px;
-     font-weight:bold;
+    font-weight: bold;
      font-stretch: normal;
      font-style: normal;
      line-height: 2.25;
@@ -71,14 +72,33 @@
 
  .fa {
      color: #099d8d;
-     padding: 0 1px;
+    padding: 0 5px;
  }
-@media all and (min-width: 480px) {
-    .box-self {
-        display: flex;
-        flex-direction: column;
-        flex-flow: column wrap;
-        justify-content:left;
-        align-items: left;
-    }
+
+ @media all and (min-width: 768px) {
+     .section-2 {
+         display: flex;
+         flex-direction: row;
+     }
+.section-2-reverse {
+    display: flex;
+    flex-direction: row-reverse;
 }
+
+.box-self {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.box-self-reverse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: end;
+
+}
+ }

@@ -44,9 +44,9 @@
 .box-equipo-titulo {
   color: #14d9c4;
   display: flex;
-  /* width: 89px; */
+
   height: 45px;
-  margin: 0 99.5px 15px 101.5px;
+  margin: 0 100px 15px 101.5px;
   font-family: 'Rubik';
   font-size: 24px;
   font-weight: 500;
@@ -58,9 +58,8 @@
 }
 
 .box-equipo-texto {
- /*  width: 290px; */
-  height: 384px;
-  margin: 15px 0 0;
+  height: auto;
+  margin: 2rem;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -72,25 +71,23 @@
   color: #54585a;
 }
 
-.box-fort-debil {
-  background-color: #b8b8b9;
-}
 
 .box2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 250px;
+  height: auto;
   line-height: 1.5;
-  background-color: #b8b8b9;
+  background-color: #d6d6da;
+  margin: 2rem 4rem 2rem 4rem;
 
 }
 
 .titulo-1 {
   font-family: "Rubik";
   color: #099d8d;
-  /* width: 290px; */
+
   height: 45px;
   font-size: 22px;
   font-weight: 500;
@@ -107,7 +104,44 @@
   color: #54585a;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  /* width: 290px; */
+  margin-bottom: 5rem;
   line-height: 1.5;
 
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  line-height: 1.5;
+  background-color: #d6d6da;
+  margin: 2rem 4rem 2rem 4rem;
+
+}
+
+.container-main1 {
+  background-color: #d6d6da;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+}
+
+@media all and (min-width: 768px) {
+
+  .container-main1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+}
+
+@media all and (min-width: 1200px) {
+  .box-equipo-texto {
+    width: 70rem;
+  }
 }

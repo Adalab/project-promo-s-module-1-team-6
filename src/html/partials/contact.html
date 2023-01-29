@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/contact.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<include src="./partials/header.html"></include>
+<body>
+  
+  <div class="contact-pic" alt="contact">
+    <caption>
+        <img src=".assets/images/contacto.html" alt="contact">
+    </caption>
+  </div>
+  <div class="pre-form">
+    <h2>CONTACTO</h2>
+    <p>
+        Si tienes cualquier duda, consulta o comentario, no dudes en ponerte en contacto.
+    </p>
+    <p>
+        Todos los datos marcados con * son obligatorios
+    </p>
+  </div>
+  <fieldset>
+    <form action="https://dev.adalab.es/api/form" method="post">
+        <label for="name">Nombre y apellidos:</label>
+        <input type="text" name="name" size="50" maxlength="50" placeholder="Nombre..." required>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" size="20" placeholder="ejemplo@ejemplo.es" required>
+        <label for="telephone">Teléfono:</label>
+        <input type="tel" name="telephone" size="20" placeholder="Ej. 123456789">
+        <label for="message">Mensaje:</label>
+        <textarea name="message" rows="12" cols="20" placeholder="¿Qué necesitas?"></textarea>
+        <input type="submit" name="enviar" value="ENVIAR"/>
+    </form>
+  </fieldset>
+  <include src="./partials/footer.html"></include>
+</body>
+
+</html>

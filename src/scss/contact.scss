@@ -1,97 +1,127 @@
-.header{
+.header {
     position: static;
 }
 
-.contact-pic{
+.contact-pic {
     display: flex;
     justify-content: center;
+    align-content: center;
     margin-bottom: 50px;
 }
 
-.picture{
+.picture {
     width: 100%;
     height: 70vh;
 
 }
 
-.asterisk{
-    color: #099d8d;
-}
-
-h2{
+.title-form {
     color: #099d8d;
     font-size: 24px;
     text-align: center;
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     line-height: 1.88;
+    font-weight: 500;
 }
 
-.doubt, .appointment{
-    font-family: OpenSans;
+.asterisk {
+    color: #099d8d;
+    font-weight: 800;
+}
+
+.doubt {
+    font-family: "Open Sans", sans-serif;
+    color: #54585a;
     line-height: 1.5;
     font-size: 16px;
     text-align: center;
-    padding:20px;
+    padding: 20px;
 }
 
-fieldset{
-    width: 90%;
-    height: auto;
+.appointment {
+    font-family: "Open Sans", sans-serif;
+    color: #54585a;
+    line-height: 1.5;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+fieldset {
     display: flex;
     flex-direction: column;
     font-size: 14px;
     border: none;
-    padding:50px;
-    font-family: OpenSans;
+    margin: auto;
+    padding: 50px;
+    height: auto;
+    font-family: "Open Sans", sans-serif;
 }
 
-input{
+input {
     height: 45px;
+    margin-bottom: 1rem;
+
 }
 
-.submit-button{
+.submit-button {
     border-radius: 10px;
     background-color: #099d8d;
+    border: #099d8d;
     color: white;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 16px;
-    
+
 }
 
-.mail, .tel{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
+.mail,
+.tel {
+    margin-bottom: 10px;
 }
 
-@media all and (min-width: 768px){
-    .form-container{
+.mail,
+.tel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.input-mail {
+    margin-bottom: 10px;
+}
+
+.input-tel {
+    margin-bottom: 10px;
+}
+
+
+@media all and (min-width: 768px) {
+    .form-container {
         justify-content: center;
     }
-    
-    .submit-button{
+
+    .submit-button {
         width: 40%;
         align-self: flex-end;
     }
 }
-@media all and (min-width: 1200px){
-    .form-container{
-        flex-direction: row;
-        flex-wrap: nowrap;
-        margin-left: 50px;
+
+@media all and (min-width: 1200px) {
+    .form-container {
+        margin: 0;
+
     }
 
-    .pair{
+    .pair {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
-    .mail, .tel{
-        width: 50%;
-    }
 
 }

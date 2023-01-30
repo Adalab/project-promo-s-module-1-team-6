@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/contact.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header-title">PUSHEAR TEAM</h1>
+    <nav class="menu">
+      <ul class="menu-link">
+        <li><a class="link" href="#team">EQUIPO</a></li>
+        <li><a class="link" href="#quienes-somos">QUIENES SOMOS</a></li>
+        <li><a class="link" href="../contact.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div class="contact-pic" alt="contact">
+    <caption>
+      <img src="./assets/images/contacto.jpg" alt="contact" class="picture">
+    </caption>
+  </div>
+
+  <div class="pre-form">
+    <h2 class="title-form">CONTACTO</h2>
+    <p class="doubt">
+      Si tienes cualquier duda, consulta o comentario, no dudes en ponerte en contacto.
+    </p>
+    <p class="appointment">
+      Todos los datos marcados con <span class="asterisk">*</span> son obligatorios
+    </p>
+  </div>
+
+
+
+
+  <form class="box-form">
+
+    <label class="label-name" for="name">Nombre y apellidos <span class="asterisk">*</span></label>
+    <input class="input-name" type="text" name="name" placeholder="Nombre..." required>
+
+    <div class="box">
+      <div id="box2">
+        <label class="label-mail" for="email" class="mail">E-mail<span class="asterisk">*</span></label>
+        <input class="input-mail" type="email" name="email" placeholder="ejemplo@ejemplo.es" required class="mail">
+      </div>
+
+      <div id="box3">
+        <label class="label-telf" for="telephone" class="tel">Teléfono </label>
+        <input class="input-tel" type="tel" name="telephone" placeholder="Ej. 123456789" class="tel">
+      </div>
+    </div>
+
+
+    <label class="label-Message" for="message">Mensaje<span class="asterisk">*</span></label>
+    <textarea name="message" rows="6" cols="auto" placeholder="¿Qué necesitas?"></textarea>
+
+    <input type="submit" class="submit-button" name="enviar" value="ENVIAR" />
+
+  </form>
+
+
+  <!--
+    Ejecutar en el smbolo del sistema: 
+    wsl --set-version Ubuntu-18.04 1
+  -->
+
+  <footer>
+    <div class="left">
+      <small>
+        <p>Pushear team &copy; 2023</p>
+      </small>
+      <img src="./assets/images/logo-adalab.png" alt="adalab" class="footer-logo" />
+    </div>
+    <nav class="footer-bar">
+      <ul class="footer-list">
+        <li><a href="#team">EQUIPO</a></li>
+        <li><a href="#quienes-somos">QUIENES SOMOS</a></li>
+        <li><a class="contact-link" href="../contact.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>

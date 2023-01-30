@@ -3,25 +3,16 @@
 .header {
   position: fixed;
   z-index: 2;
-  /*width: 100%;*/
   font-family: 'Rubik', sans-serif;
-    width: 100vw;
-  
+  width: 100vw;
 }
 .header-title {
-    /*display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;*/
-    text-align: center;
-    /*si le ponemos classe al body, eliminar este text-align*/
-    color: #ffffff;
-    background-color: #099d8d;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    /*height: 6rem;*/
-    opacity: 0.95;
-    
+  text-align: center;
+  color: #ffffff;
+  background-color: #099d8d;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  opacity: 0.95;
 }
 
 .menu-link {
@@ -30,9 +21,7 @@
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
-  
-  height: 4.5rem;
-  /*padding: 0.8rem 1.7rem 0.7rem 1.6rem;*/
+  height: 45px;
   opacity: 0.9;
   font-size: 1.5rem;
 
@@ -42,25 +31,33 @@
   text-decoration: none;
 }
 @media all and (min-width: 768px){
-  /*.header{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-  }*/
-
-
-
-}
-/*@media all and (min-width: 768px) {
-  .header {
+  .header{
+    height: 60px;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-  
+    align-items: center;
+    background-color: #099d8d;
+  }
+  .header-title{
+    width: 50%;
+    text-align: left;
+    padding-left: 45px;
+  } 
+  .menu{
+    width: 50%;
+    padding-left: 80px;
+  }
+  .menu-link{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    background-color: #099d8d;
   }
 }
- /*position: fixed;
- z-index: 2;
- width: 100%;
- font-family: 'Rubik',
- sans-serif;*/
+@media all and (min-width: 1200px){
+  .header-title{
+    padding-left: 142px;
+  }
+  .menu-link{
+      justify-content: center;
+  }
+}

@@ -29,6 +29,9 @@
   padding: 10px;
   text-align: center;
 }
+#team{ 
+  scroll-margin-top: 95px;
+}
 
 
 .box-equipo {
@@ -38,6 +41,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 
@@ -136,6 +140,9 @@
     flex-direction: row;
     justify-content: center;
 
+  }
+  #team{
+    scroll-margin-top: 55px;
   }
 
 }

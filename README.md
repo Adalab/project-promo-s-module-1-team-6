@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The Pushear Team
 
 For our first module, our team needed to create a web page using a design that was provided to us. The main goal of the project was to consolidate the different concepts we learned during the first module, which consisted of: HTML, CSS, responsive design, GitHub Pages, Sass, grid and gulp. In addition to the project itself, it was important to implement Scrum in which we used the Agile core-values.
@@ -20,3 +21,6 @@ The instructors that supervised our project (and to whom we want to give a speci
 - Dayana Romero
 - Iván Garrido
 - Yanelis Serrano
+=======
+
+>>>>>>> 62f7c557ee130dcdac3902764a8ee8bc8231d10e

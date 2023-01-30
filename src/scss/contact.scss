@@ -79,6 +79,16 @@
     font-family: "Open Sans", sans-serif;
 }
 
+#box3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    font-size: 14px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+}
+
 label {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -137,7 +147,20 @@ input {
     }
 
     #box2 {
+        display: flex;
+        justify-content: space-around;
         flex-grow: 1;
         margin-inline: 15px;
+        margin-left: 0;
+
     }
+
+    #box3 {
+        display: flex;
+        justify-content: space-around;
+        flex-grow: 1;
+        margin-inline: 15px;
+        margin-right: 0;
+    }
+
 }
